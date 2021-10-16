@@ -18,9 +18,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Well, you showed up early...</h1>
+        <h1 className={styles.title}>Well, you are here early...</h1>
         <h2 className={styles.subtitle}>
-          This portfolio is currently being built in{" "}
+          This portfolio is currently being built using{" "}
           <a href="https://nextjs.org">Next.js</a>
         </h2>
         <Image src={czSprite} alt="Code_Zealot Pixel Art Sprite" />
