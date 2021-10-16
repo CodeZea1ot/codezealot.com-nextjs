@@ -1,5 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
+import czSprite from "../public/cz_sprite_128.png";
 
 export default function Home() {
   return (
@@ -16,7 +18,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Coming Soon</h1>
+        <h1 className={styles.title}>Well, you showed up early...</h1>
+        <h2 className={styles.subtitle}>
+          This portfolio is currently being built in{" "}
+          <a href="https://nextjs.org">Next.js</a>
+        </h2>
+        <Image src={czSprite} alt="Code_Zealot Pixel Art Sprite" />
       </main>
     </div>
   );
